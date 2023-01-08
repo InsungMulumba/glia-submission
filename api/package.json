@@ -1,0 +1,32 @@
+{
+  "name": "glia-submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsungMulumba/glia-submission.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InsungMulumba/glia-submission/issues"
+  },
+  "homepage": "https://github.com/InsungMulumba/glia-submission#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lowdb": "^5.0.5"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./node": "./lib/node.js",
+    "./browser": "./lib/browser.js"
+  }
+}
