@@ -79,7 +79,7 @@ app.post("/user", async (req, res) => {
 
   db.write();
 
-  res.json(db.data);
+  res.json(`Successfully added user: ${db.data.name}`);
 });
 
 app.get("/", (req, res) => {
