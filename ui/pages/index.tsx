@@ -69,7 +69,10 @@ export default function Home() {
         accessibility,
         price,
       }),
-    }).then((response) => response.json());
+    }).then((response) => {
+      response.json();
+      alert(`User Profile ${name} successfully created`);
+    });
   }
 
   return (
